@@ -1,13 +1,16 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Tej Parekh — Computer Engineering at Brown University. State estimation, networking, embedded systems, signal processing, and modeling." />
+  <meta name="description"
+    content="Tej Parekh — Computer Engineering at Brown University. State estimation, networking, embedded systems, signal processing, and modeling." />
   <meta name="theme-color" content="#f7f5f1" />
   <title>Tej Parekh — Computer Engineering</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body id="top">
   <a class="skip-link" href="#main">Skip to content</a>
 
@@ -79,14 +82,16 @@
           </div>
           <div class="experience-list two">
             <article class="experience-row">
-              <div class="logo-frame wide"><img src="assets/img/soe-logo.png" alt="Brown School of Engineering logo" /></div>
+              <div class="logo-frame wide"><img src="assets/img/soe-logo.png" alt="Brown School of Engineering logo" />
+              </div>
               <div class="experience-main">
                 <h4>Laboratory for Emerging Technologies</h4>
                 <p>Undergraduate Researcher · Future Computing · Prof. Jimmy Xu</p>
               </div>
             </article>
             <article class="experience-row">
-              <div class="logo-frame wide"><img src="assets/img/deeps-log.png" alt="Brown Department of Earth, Environmental and Planetary Sciences logo" /></div>
+              <div class="logo-frame wide"><img src="assets/img/deeps-log.png"
+                  alt="Brown Department of Earth, Environmental and Planetary Sciences logo" /></div>
               <div class="experience-main">
                 <h4>Equitable Climate Futures</h4>
                 <p>Undergraduate Researcher · Prof. Seda Salap Ayca</p>
@@ -139,34 +144,62 @@
             <p class="project-meta">Personal project · Embedded systems · State estimation</p>
             <h3>STM32 IMU Motion Tracker</h3>
           </div>
-          <a class="text-link" href="https://github.com/tej-parekh/stm32-imu-motion-tracker" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="https://github.com/tej-parekh/stm32-imu-motion-tracker" target="_blank"
+            rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
         </header>
 
         <p class="project-context">
-          I created this project to gain an understanding of embedded sensing and state estimation from the ground up. The STM32 handles acquisition, calibration, and orientation estimation; Python handles telemetry, analysis, and visualization.
+          I created this project to gain an understanding of embedded sensing and state estimation from the ground up.
+          The STM32 handles acquisition, calibration, and orientation estimation; Python handles telemetry, analysis,
+          and visualization.
         </p>
 
         <div class="skills-row" aria-label="STM32 IMU project skills">
           <span class="skills-label">Skills</span>
           <ul class="skill-pills">
-            <li>C</li><li>Python</li><li>STM32</li><li>Embedded Systems</li><li>I²C / UART</li><li>Sensor Fusion</li><li>Kalman Filtering</li><li>State Estimation</li><li>Signal Processing</li>
+            <li>C</li>
+            <li>Python</li>
+            <li>STM32</li>
+            <li>Embedded Systems</li>
+            <li>I²C / UART</li>
+            <li>Sensor Fusion</li>
+            <li>Kalman Filtering</li>
+            <li>State Estimation</li>
+            <li>Signal Processing</li>
           </ul>
         </div>
 
         <figure class="media feature-media demo-feature">
-          <video class="demo-video" autoplay muted loop playsinline preload="auto" poster="assets/img/stm32-dashboard-preview.png">
+          <video class="demo-video" autoplay muted loop playsinline preload="auto"
+            poster="assets/img/stm32-dashboard-preview.png">
             <source src="assets/media/dashboard_demo.mp4" type="video/mp4" />
             Your browser does not support embedded video.
           </video>
-          <figcaption>Live dashboard: accelerometer tilt, gyro-only quaternion propagation, adaptive Kalman roll/pitch, and Mahony quaternion attitude streamed from the STM32.</figcaption>
+          <figcaption>Live dashboard: accelerometer tilt, gyro-only quaternion propagation, adaptive Kalman roll/pitch,
+            and Mahony quaternion attitude streamed from the STM32.</figcaption>
         </figure>
 
         <dl class="spec-strip" aria-label="STM32 IMU project specifications">
-          <div><dt>MCU</dt><dd>STM32F446RE</dd></div>
-          <div><dt>IMU</dt><dd>MPU-6050</dd></div>
-          <div><dt>Sampling</dt><dd>100 Hz</dd></div>
-          <div><dt>Telemetry</dt><dd>460800 baud</dd></div>
-          <div><dt>Estimators</dt><dd>Adaptive Kalman + Mahony</dd></div>
+          <div>
+            <dt>MCU</dt>
+            <dd>STM32F446RE</dd>
+          </div>
+          <div>
+            <dt>IMU</dt>
+            <dd>MPU-6050</dd>
+          </div>
+          <div>
+            <dt>Sampling</dt>
+            <dd>100 Hz</dd>
+          </div>
+          <div>
+            <dt>Telemetry</dt>
+            <dd>460800 baud</dd>
+          </div>
+          <div>
+            <dt>Estimators</dt>
+            <dd>Adaptive Kalman + Mahony</dd>
+          </div>
         </dl>
 
         <div class="detail-grid">
@@ -201,11 +234,14 @@
 
         <div class="media-grid two-up project-support-media shake-media">
           <figure class="media figure">
-            <img src="assets/img/stm32-shake-roll.png" alt="Horizontal shake test comparing accelerometer and filtered roll estimates" loading="lazy" />
-            <figcaption>Horizontal-shake roll response: adaptive measurement weighting suppresses false tilt from linear acceleration.</figcaption>
+            <img src="assets/img/stm32-shake-roll.png"
+              alt="Horizontal shake test comparing accelerometer and filtered roll estimates" loading="lazy" />
+            <figcaption>Horizontal-shake roll response: adaptive measurement weighting suppresses false tilt from linear
+              acceleration.</figcaption>
           </figure>
           <figure class="media figure">
-            <img src="assets/img/stm32-shake-pitch.png" alt="Horizontal shake test comparing accelerometer and filtered pitch estimates" loading="lazy" />
+            <img src="assets/img/stm32-shake-pitch.png"
+              alt="Horizontal shake test comparing accelerometer and filtered pitch estimates" loading="lazy" />
             <figcaption>Horizontal-shake pitch response under the same translational disturbance.</figcaption>
           </figure>
         </div>
@@ -221,31 +257,59 @@
         </header>
 
         <p class="project-context">
-          I implemented a userspace IPv4/TCP stack in Go over UDP-backed virtual links, from IPv4 forwarding and RIP routing through a stateful TCP socket layer with buffering, flow control, retransmission, and connection management.
+          I implemented a userspace IPv4/TCP stack in Go over UDP-backed virtual links, from IPv4 forwarding and RIP
+          routing through a stateful TCP socket layer with buffering, flow control, retransmission, and connection
+          management.
         </p>
 
         <div class="skills-row" aria-label="TCP/IP project skills">
           <span class="skills-label">Skills</span>
           <ul class="skill-pills">
-            <li>Go</li><li>TCP/IP</li><li>IPv4</li><li>Routing</li><li>Systems Programming</li><li>Concurrency</li><li>Network Protocols</li><li>Wireshark</li>
+            <li>Go</li>
+            <li>TCP/IP</li>
+            <li>IPv4</li>
+            <li>Routing</li>
+            <li>Systems Programming</li>
+            <li>Concurrency</li>
+            <li>Network Protocols</li>
+            <li>Wireshark</li>
           </ul>
         </div>
 
         <dl class="spec-strip" aria-label="TCP/IP project specifications">
-          <div><dt>Language</dt><dd>Go</dd></div>
-          <div><dt>Virtual link</dt><dd>UDP sockets</dd></div>
-          <div><dt>Routing</dt><dd>RIP / distance vector</dd></div>
-          <div><dt>Transport</dt><dd>Custom TCP socket API</dd></div>
-          <div><dt>Debugging</dt><dd>Wireshark + tmux</dd></div>
+          <div>
+            <dt>Language</dt>
+            <dd>Go</dd>
+          </div>
+          <div>
+            <dt>Virtual link</dt>
+            <dd>UDP sockets</dd>
+          </div>
+          <div>
+            <dt>Routing</dt>
+            <dd>RIP / distance vector</dd>
+          </div>
+          <div>
+            <dt>Transport</dt>
+            <dd>Custom TCP socket API</dd>
+          </div>
+          <div>
+            <dt>Debugging</dt>
+            <dd>Wireshark + tmux</dd>
+          </div>
         </dl>
 
         <div class="media-grid two-up lead-media">
           <figure class="media figure tcp-diagram">
-            <img src="https://cdn.sanity.io/images/hfoiv5tq/production/1ad3d86db143c9a3f947ab2904af9d32532392c9-1672x941.png?w=1000" alt="Architecture diagram of the userspace IP and TCP stack" loading="lazy" />
+            <img
+              src="https://cdn.sanity.io/images/hfoiv5tq/production/1ad3d86db143c9a3f947ab2904af9d32532392c9-1672x941.png?w=1000"
+              alt="Architecture diagram of the userspace IP and TCP stack" loading="lazy" />
             <figcaption>Project structure: UDP-backed interfaces, IP forwarding, RIP, TCP, and REPL.</figcaption>
           </figure>
           <figure class="media figure tcp-diagram">
-            <img src="https://cdn.sanity.io/images/hfoiv5tq/production/a5ba15e4290288e92944cb4ffc36e318f3ec6c02-1406x1080.png?w=1000" alt="TCP state machine diagram" loading="lazy" />
+            <img
+              src="https://cdn.sanity.io/images/hfoiv5tq/production/a5ba15e4290288e92944cb4ffc36e318f3ec6c02-1406x1080.png?w=1000"
+              alt="TCP state machine diagram" loading="lazy" />
             <figcaption>TCP connection state machine implemented by the stack.</figcaption>
           </figure>
         </div>
@@ -303,24 +367,35 @@
         </header>
 
         <p class="project-context">
-          Brown Space Engineering's PVDX CubeSat needs a body-frame Sun vector for attitude determination. I lead the hardware work on a low-cost photodiode sensor and its characterization for the PVDX ADCS stack, with launch planned on SpaceX in 2027.
+          Brown Space Engineering's PVDX CubeSat needs a body-frame Sun vector for attitude determination. I lead the
+          hardware work on a low-cost photodiode sensor and its characterization for the PVDX ADCS stack, with launch
+          planned on SpaceX in 2027.
         </p>
 
         <div class="skills-row" aria-label="Sun sensor project skills">
           <span class="skills-label">Skills</span>
           <ul class="skill-pills">
-            <li>Sensors</li><li>Analog Circuits</li><li>Signal Conditioning</li><li>Hardware Testing</li><li>Attitude Determination</li><li>Signal Processing</li><li>MATLAB</li>
+            <li>Sensors</li>
+            <li>Analog Circuits</li>
+            <li>Signal Conditioning</li>
+            <li>Hardware Testing</li>
+            <li>Attitude Determination</li>
+            <li>Signal Processing</li>
+            <li>MATLAB</li>
           </ul>
         </div>
 
         <div class="media-grid sun-showcase lead-media">
           <figure class="media photo sun-main-photo">
-            <img src="assets/img/sun-simulator-new.jpg" alt="Photodiode sun-sensor characterization setup under an Ossila solar simulator" loading="lazy" />
+            <img src="assets/img/sun-simulator-new.jpg"
+              alt="Photodiode sun-sensor characterization setup under an Ossila solar simulator" loading="lazy" />
             <figcaption>Angular characterization under an Ossila solar simulator.</figcaption>
           </figure>
           <figure class="media figure sun-response">
-            <img src="assets/img/sun-cosine.png" alt="Measured photodiode response compared with expected cosine response" loading="lazy" />
-            <figcaption>Measured response compared with ideal cosine behavior across the usable angular range.</figcaption>
+            <img src="assets/img/sun-cosine.png"
+              alt="Measured photodiode response compared with expected cosine response" loading="lazy" />
+            <figcaption>Measured response compared with ideal cosine behavior across the usable angular range.
+            </figcaption>
           </figure>
         </div>
 
@@ -353,7 +428,8 @@
         </div>
 
         <figure class="media photo sun-secondary-photo">
-          <img src="assets/img/sun-fixture.jpg" alt="Photodiode sensor mounted on the rotation fixture used for angular testing" loading="lazy" />
+          <img src="assets/img/sun-fixture.jpg"
+            alt="Photodiode sensor mounted on the rotation fixture used for angular testing" loading="lazy" />
           <figcaption>Rotation fixture used during angular testing.</figcaption>
         </figure>
       </article>
@@ -367,26 +443,51 @@
         </header>
 
         <p class="project-context">
-          For Equitable Climate Futures under Prof. Seda Salap Ayca, I handled the population-mapping side of a broader flood-vulnerability project: redistribute census population from coarse administrative units to individual Rhode Island buildings.
+          For Equitable Climate Futures under Prof. Seda Salap Ayca, I handled the population-mapping side of a broader
+          flood-vulnerability project: redistribute census population from coarse administrative units to individual
+          Rhode Island buildings.
         </p>
 
         <div class="skills-row" aria-label="Population mapping project skills">
           <span class="skills-label">Skills</span>
           <ul class="skill-pills">
-            <li>Python</li><li>GIS</li><li>Geospatial Modeling</li><li>Remote Sensing</li><li>Optimization</li><li>Spatial Data</li><li>QGIS / ArcGIS</li><li>Data Analysis</li>
+            <li>Python</li>
+            <li>GIS</li>
+            <li>Geospatial Modeling</li>
+            <li>Remote Sensing</li>
+            <li>Optimization</li>
+            <li>Spatial Data</li>
+            <li>QGIS / ArcGIS</li>
+            <li>Data Analysis</li>
           </ul>
         </div>
 
         <dl class="spec-strip" aria-label="Population mapping project specifications">
-          <div><dt>Scale</dt><dd>&gt;400,000 buildings</dd></div>
-          <div><dt>Method</dt><dd>Dasymetric mapping + TOPSIS</dd></div>
-          <div><dt>Footprints</dt><dd>Overture + OSM</dd></div>
-          <div><dt>Ancillary data</dt><dd>Nightlights, schools, geometry</dd></div>
-          <div><dt>Use</dt><dd>Flood vulnerability analysis</dd></div>
+          <div>
+            <dt>Scale</dt>
+            <dd>&gt;400,000 buildings</dd>
+          </div>
+          <div>
+            <dt>Method</dt>
+            <dd>Dasymetric mapping + TOPSIS</dd>
+          </div>
+          <div>
+            <dt>Footprints</dt>
+            <dd>Overture + OSM</dd>
+          </div>
+          <div>
+            <dt>Ancillary data</dt>
+            <dd>Nightlights, schools, geometry</dd>
+          </div>
+          <div>
+            <dt>Use</dt>
+            <dd>Flood vulnerability analysis</dd>
+          </div>
         </dl>
 
         <figure class="media figure map-figure lead-media">
-          <img src="assets/img/population-map.png" alt="Building-level population estimates mapped across Rhode Island" loading="lazy" />
+          <img src="assets/img/population-map.png" alt="Building-level population estimates mapped across Rhode Island"
+            loading="lazy" />
           <figcaption>Example building-level population estimates.</figcaption>
         </figure>
 
@@ -402,7 +503,8 @@
           <section>
             <h4>Allocation</h4>
             <ul class="tech-list">
-              <li>Features included VIIRS nightlight, school proximity / enrollment, area, height, and building classification</li>
+              <li>Features included VIIRS nightlight, school proximity / enrollment, area, height, and building
+                classification</li>
               <li>Standardized features and used TOPSIS to score buildings relative to ideal / negative-ideal cases</li>
               <li>Redistributed known aggregate census population while preserving block totals</li>
             </ul>
@@ -419,11 +521,14 @@
 
         <div class="media-grid two-up">
           <figure class="media figure">
-            <img src="assets/img/population-flow-source.png" alt="Workflow diagram for the population modeling pipeline" loading="lazy" />
-            <figcaption>Data preparation, ancillary features, TOPSIS scoring, sensitivity analysis, and final estimates.</figcaption>
+            <img src="assets/img/population-flow-source.png" alt="Workflow diagram for the population modeling pipeline"
+              loading="lazy" />
+            <figcaption>Data preparation, ancillary features, TOPSIS scoring, sensitivity analysis, and final estimates.
+            </figcaption>
           </figure>
           <figure class="media figure">
-            <img src="assets/img/population-sensitivity-source.png" alt="Morris sensitivity analysis for population model features" loading="lazy" />
+            <img src="assets/img/population-sensitivity-source.png"
+              alt="Morris sensitivity analysis for population model features" loading="lazy" />
             <figcaption>Morris sensitivity result for nightlight, school, area, and height features.</figcaption>
           </figure>
         </div>
@@ -432,49 +537,78 @@
       <article class="project section-shell" id="wildfire">
         <header class="project-header">
           <div>
-            <p class="award-kicker regeneron-badge"><span aria-hidden="true">◆</span> Regeneron Science Talent Search · Scholar · Top 300 Nationwide</p>
+            <p class="award-kicker regeneron-badge"><span aria-hidden="true">◆</span> Regeneron Science Talent Search ·
+              Scholar · Top 300 Nationwide</p>
             <p class="project-meta">Independent research · Computer vision</p>
             <h3>Wildfire Cause Classification</h3>
           </div>
         </header>
 
         <p class="project-context">
-          Independent research project asking whether satellite imagery taken before a fire could distinguish areas associated with human-caused versus lightning-caused ignition. I matched Canadian wildfire records to satellite images by coordinates and trained a CNN on the resulting labels.
+          Independent research project asking whether satellite imagery taken before a fire could distinguish areas
+          associated with human-caused versus lightning-caused ignition. I matched Canadian wildfire records to
+          satellite images by coordinates and trained a CNN on the resulting labels.
         </p>
 
         <div class="skills-row" aria-label="Wildfire project skills">
           <span class="skills-label">Skills</span>
           <ul class="skill-pills">
-            <li>Python</li><li>TensorFlow</li><li>Keras</li><li>Computer Vision</li><li>CNNs</li><li>NumPy</li><li>Geospatial Data</li><li>Machine Learning</li>
+            <li>Python</li>
+            <li>TensorFlow</li>
+            <li>Keras</li>
+            <li>Computer Vision</li>
+            <li>CNNs</li>
+            <li>NumPy</li>
+            <li>Geospatial Data</li>
+            <li>Machine Learning</li>
           </ul>
         </div>
 
         <dl class="spec-strip" aria-label="Wildfire project specifications">
-          <div><dt>Matched images</dt><dd>22,514</dd></div>
-          <div><dt>Training set</dt><dd>~16,000 images</dd></div>
-          <div><dt>Input</dt><dd>350 × 350 RGB</dd></div>
-          <div><dt>Original classes</dt><dd>~70% human / 30% lightning</dd></div>
-          <div><dt>Best test accuracy</dt><dd>73% · balanced test set</dd></div>
+          <div>
+            <dt>Matched images</dt>
+            <dd>22,514</dd>
+          </div>
+          <div>
+            <dt>Training set</dt>
+            <dd>~16,000 images</dd>
+          </div>
+          <div>
+            <dt>Input</dt>
+            <dd>350 × 350 RGB</dd>
+          </div>
+          <div>
+            <dt>Original classes</dt>
+            <dd>~70% human / 30% lightning</dd>
+          </div>
+          <div>
+            <dt>Best test accuracy</dt>
+            <dd>73% · balanced test set</dd>
+          </div>
         </dl>
 
         <div class="media-grid wildfire-primary-media lead-media">
           <figure class="media figure map-figure">
-            <img src="assets/img/wildfire-map-sharp.png" alt="Map of historical wildfire locations colored by cause across Quebec" loading="lazy" />
+            <img src="assets/img/wildfire-map-sharp.png"
+              alt="Map of historical wildfire locations colored by cause across Quebec" loading="lazy" />
             <figcaption>Matched wildfire-image locations, separated by ignition cause.</figcaption>
           </figure>
           <figure class="media figure wildfire-accuracy">
-            <img src="assets/img/wildfire-accuracy-source.png" alt="Training and validation accuracy curves for the wildfire CNN" loading="lazy" />
+            <img src="assets/img/wildfire-accuracy-source.png"
+              alt="Training and validation accuracy curves for the wildfire CNN" loading="lazy" />
             <figcaption>Training and validation accuracy for the best model.</figcaption>
           </figure>
         </div>
 
         <div class="media-grid two-up wildfire-samples">
           <figure class="media figure wildfire-sample">
-            <img src="assets/img/wildfire-human-source.png" alt="Satellite image example associated with a human-caused wildfire" loading="lazy" />
+            <img src="assets/img/wildfire-human-source.png"
+              alt="Satellite image example associated with a human-caused wildfire" loading="lazy" />
             <figcaption>Human-caused sample.</figcaption>
           </figure>
           <figure class="media figure wildfire-sample">
-            <img src="assets/img/wildfire-lightning-source.png" alt="Satellite image example associated with a lightning-caused wildfire" loading="lazy" />
+            <img src="assets/img/wildfire-lightning-source.png"
+              alt="Satellite image example associated with a lightning-caused wildfire" loading="lazy" />
             <figcaption>Lightning-caused sample.</figcaption>
           </figure>
         </div>
@@ -517,33 +651,60 @@
         </header>
 
         <p class="project-context">
-          This project tested whether modeling food composition explicitly could improve nutrition estimates from overhead images. The model combines RGB appearance with depth geometry, then jointly predicts dish-level nutrition, ingredient presence, and per-ingredient mass.
+          This project tested whether modeling food composition explicitly could improve nutrition estimates from
+          overhead images. The model combines RGB appearance with depth geometry, then jointly predicts dish-level
+          nutrition, ingredient presence, and per-ingredient mass.
         </p>
 
         <div class="skills-row" aria-label="Nutrition project skills">
           <span class="skills-label">Skills</span>
           <ul class="skill-pills">
-            <li>Python</li><li>PyTorch</li><li>Deep Learning</li><li>Computer Vision</li><li>ConvNeXt</li><li>RGB-D</li><li>Multitask Learning</li><li>Model Ablation</li>
+            <li>Python</li>
+            <li>PyTorch</li>
+            <li>Deep Learning</li>
+            <li>Computer Vision</li>
+            <li>ConvNeXt</li>
+            <li>RGB-D</li>
+            <li>Multitask Learning</li>
+            <li>Model Ablation</li>
           </ul>
         </div>
 
         <div class="media-grid nutrition-showcase lead-media">
           <figure class="media figure nutrition-architecture">
-            <img src="assets/img/nutrition-architecture.png" alt="Architecture diagram for RGB-D nutrition estimation model" loading="lazy" />
-            <figcaption>Dual-stream late fusion: ConvNeXt RGB and depth/mask encoders feed scalar nutrition, ingredient-presence, and ingredient-mass heads.</figcaption>
+            <img src="assets/img/nutrition-architecture.png"
+              alt="Architecture diagram for RGB-D nutrition estimation model" loading="lazy" />
+            <figcaption>Dual-stream late fusion: ConvNeXt RGB and depth/mask encoders feed scalar nutrition,
+              ingredient-presence, and ingredient-mass heads.</figcaption>
           </figure>
           <figure class="media figure nutrition-result-figure">
-            <img src="assets/img/nutrition-results.png" alt="Held-out nutrition estimation results and RGB-D ablation results" loading="lazy" />
+            <img src="assets/img/nutrition-results.png"
+              alt="Held-out nutrition estimation results and RGB-D ablation results" loading="lazy" />
             <figcaption>Held-out results and depth ablation.</figcaption>
           </figure>
         </div>
 
         <dl class="spec-strip nutrition-specs" aria-label="Nutrition project specifications">
-          <div><dt>Usable RGB-D dishes</dt><dd>3,490</dd></div>
-          <div><dt>Train / val / test</dt><dd>2,479 / 276 / 507</dd></div>
-          <div><dt>Ingredient vocabulary</dt><dd>555 classes</dd></div>
-          <div><dt>kcal MAE</dt><dd>61.9 vs 70 baseline</dd></div>
-          <div><dt>Mass MAE</dt><dd>37.9 g vs 40 g baseline</dd></div>
+          <div>
+            <dt>Usable RGB-D dishes</dt>
+            <dd>3,490</dd>
+          </div>
+          <div>
+            <dt>Train / val / test</dt>
+            <dd>2,479 / 276 / 507</dd>
+          </div>
+          <div>
+            <dt>Ingredient vocabulary</dt>
+            <dd>555 classes</dd>
+          </div>
+          <div>
+            <dt>kcal MAE</dt>
+            <dd>61.9 vs 70 baseline</dd>
+          </div>
+          <div>
+            <dt>Mass MAE</dt>
+            <dd>37.9 g vs 40 g baseline</dd>
+          </div>
         </dl>
 
         <div class="detail-grid">
@@ -569,18 +730,21 @@
             <ul class="tech-list">
               <li>Improved the Nutrition5k direct baseline on kcal, total mass, fat, and carbohydrate MAE</li>
               <li>Depth reduced mass MAE from 46.56 g to 37.89 g</li>
-              <li>RGB-only produced lower kcal MAE: 57.58 vs 61.86, showing depth was not uniformly useful across outputs</li>
+              <li>RGB-only produced lower kcal MAE: 57.58 vs 61.86, showing depth was not uniformly useful across
+                outputs</li>
             </ul>
           </section>
         </div>
 
         <div class="media-grid two-up project-support-media nutrition-training">
           <figure class="media figure">
-            <img src="assets/img/nutrition-training-rgbd.png" alt="Training curves for the RGB-D nutrition model" loading="lazy" />
+            <img src="assets/img/nutrition-training-rgbd.png" alt="Training curves for the RGB-D nutrition model"
+              loading="lazy" />
             <figcaption>RGB-D training and validation behavior.</figcaption>
           </figure>
           <figure class="media figure">
-            <img src="assets/img/nutrition-training-nodepth.png" alt="Training curves for the RGB-only depth ablation" loading="lazy" />
+            <img src="assets/img/nutrition-training-nodepth.png" alt="Training curves for the RGB-only depth ablation"
+              loading="lazy" />
             <figcaption>RGB-only ablation under the same training setup.</figcaption>
           </figure>
         </div>
@@ -595,23 +759,32 @@
         </header>
 
         <p class="project-context">
-          I built and tuned a directional Yagi antenna, used SDR tooling to inspect and demodulate transmitted signals, then used directional measurements to locate hidden transmitters around the MITRE Bedford campus.
+          I built and tuned a directional Yagi antenna, used SDR tooling to inspect and demodulate transmitted signals,
+          then used directional measurements to locate hidden transmitters around the MITRE Bedford campus.
         </p>
 
         <div class="skills-row" aria-label="Fox hunt project skills">
           <span class="skills-label">Skills</span>
           <ul class="skill-pills">
-            <li>RF Engineering</li><li>Signal Processing</li><li>SDR</li><li>Antennas</li><li>Hardware Testing</li><li>FSK / PSK</li><li>Soldering</li>
+            <li>RF Engineering</li>
+            <li>Signal Processing</li>
+            <li>SDR</li>
+            <li>Antennas</li>
+            <li>Hardware Testing</li>
+            <li>FSK / PSK</li>
+            <li>Soldering</li>
           </ul>
         </div>
 
         <div class="media-grid fox-grid lead-media">
           <figure class="media photo">
-            <img src="assets/img/foxhunt-field.jpg" alt="Using a directional Yagi antenna during the MITRE fox hunt" loading="lazy" />
+            <img src="assets/img/foxhunt-field.jpg" alt="Using a directional Yagi antenna during the MITRE fox hunt"
+              loading="lazy" />
             <figcaption>Directional search during the transmitter-location exercise.</figcaption>
           </figure>
           <figure class="media photo">
-            <img src="assets/img/foxhunt-group.jpg" alt="Fox hunt team with completed antennas at MITRE" loading="lazy" />
+            <img src="assets/img/foxhunt-group.jpg" alt="Fox hunt team with completed antennas at MITRE"
+              loading="lazy" />
             <figcaption>Finished Yagi antennas after the build and field exercise.</figcaption>
           </figure>
         </div>
@@ -635,7 +808,8 @@
             <h4>Field exercise</h4>
             <ul class="tech-list">
               <li>Located hidden transmitters distributed around the MITRE campus</li>
-              <li>Combined antenna bearing changes with signal-strength observations while moving through the search area</li>
+              <li>Combined antenna bearing changes with signal-strength observations while moving through the search
+                area</li>
             </ul>
           </section>
         </div>
@@ -646,7 +820,8 @@
         <h2 id="acknowledgements-title">Acknowledgements</h2>
         <ul class="acknowledgement-list">
           <li><strong>TCP/IP stack:</strong> built with Kieran Lamay.</li>
-          <li><strong>Food composition &amp; nutrition:</strong> Christina Peng, Amos Okutse, Xiaoyan Cong, and Tej Parekh.</li>
+          <li><strong>Food composition &amp; nutrition:</strong> worked with Christina Peng, Amos Okutse, and Xiaoyan
+            Cong.</li>
           <li><strong>MITRE Fox Hunt:</strong> worked alongside Edwin Ryerson and Nikith Kandula.</li>
         </ul>
       </section>
@@ -672,4 +847,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
